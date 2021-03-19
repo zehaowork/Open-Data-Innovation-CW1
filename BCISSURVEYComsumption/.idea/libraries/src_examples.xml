@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="src-examples">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Downloads/apache-jena-3.17.0/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Downloads/apache-jena-3.17.0/lib-src" />
+    </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/Downloads/apache-jena-3.17.0/lib" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/Downloads/apache-jena-3.17.0/lib-src" recursive="false" type="SOURCES" />
+  </library>
+</component>

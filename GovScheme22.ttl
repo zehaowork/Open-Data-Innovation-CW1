@@ -1,0 +1,130 @@
+#Dataset
+:ds11 rdf:type qb:dataset;
+	 dc:title"Government Scheme2 By Workforce";
+     qb:observation :ds11_1_1;
+     qb:observation :ds11_1_2;
+     qb:observation :ds11_1_3;
+     qb:observation :ds11_1_4;
+     qb:observation :ds11_1_5;
+     qb:observation :ds11_1_6;
+     qb:observation :ds11_1_7;
+     qb:observation :ds11_2_1;
+     qb:observation :ds11_2_2;
+     qb:observation :ds11_2_3;
+     qb:observation :ds11_2_4;
+     qb:observation :ds11_2_5;
+     qb:observation :ds11_2_6;
+     qb:observation :ds11_2_7;
+     qb:observation :ds11_3_1;
+     qb:observation :ds11_3_2;
+     qb:observation :ds11_3_3;
+     qb:observation :ds11_3_4;
+     qb:observation :ds11_3_5;
+     qb:observation :ds11_3_6;
+     qb:observation :ds11_3_7.
+.
+:ds11_1_1 rdf:type qb:observation;
+      rdf:value 0.221;
+      qb:DimensionProperty  :CoronavirusJobRetentionScheme;
+      qb:DimensionProperty :WorkforceSizeLessThan250.
+
+:ds11_1_2 rdf:type qb:observation;
+      rdf:value 0.186;
+      qb:DimensionProperty  :Businessratesholiday;
+      qb:DimensionProperty :WorkforceSizeLessThan250.
+
+:ds11_1_3 rdf:type qb:observation;
+      rdf:value 0.407;
+      qb:DimensionProperty  :DeferringVATpayments;
+      qb:DimensionProperty :WorkforceSizeLessThan250.
+
+:ds11_1_4 rdf:type qb:observation;
+      rdf:value 0.168;
+      qb:DimensionProperty  :HMRCTimeToPayscheme;
+      qb:DimensionProperty :WorkforceSizeLessThan250.
+
+:ds11_1_5 rdf:type qb:observation;
+      rdf:value 0.085;
+      qb:DimensionProperty  :Governmentfundedsmallbusinessgrantorloanschemes;
+      qb:DimensionProperty :WorkforceSizeLessThan250.
+
+:ds11_1_6 rdf:type qb:observation;
+      rdf:value 0.023;
+      qb:DimensionProperty  :Accreditedfinanceagreements;
+      qb:DimensionProperty :WorkforceSizeLessThan250.
+
+:ds11_1_7 rdf:type qb:observation;
+      rdf:value 0.205;
+      qb:DimensionProperty  :Wehaventreceivedanythatweappliedfor;
+      qb:DimensionProperty :WorkforceSizeLessThan250.
+
+:ds11_2_1 rdf:type qb:observation;
+      rdf:value 0.224;
+      qb:DimensionProperty  :CoronavirusJobRetentionScheme;
+      qb:DimensionProperty :WorkforceSize250More.
+
+:ds11_2_2 rdf:type qb:observation;
+      rdf:value 0.2;
+      qb:DimensionProperty  :Businessratesholiday;
+      qb:DimensionProperty :WorkforceSize250More.
+
+:ds11_2_3 rdf:type qb:observation;
+      rdf:value 0.461;
+      qb:DimensionProperty  :DeferringVATpayments;
+      qb:DimensionProperty :WorkforceSize250More.
+
+:ds11_2_4 rdf:type qb:observation;
+      rdf:value 0.168;
+      qb:DimensionProperty  :HMRCTimeToPayscheme;
+      qb:DimensionProperty :WorkforceSize250More.
+
+:ds11_2_5 rdf:type qb:observation;
+      rdf:value 0.046;
+      qb:DimensionProperty  :Governmentfundedsmallbusinessgrantorloanschemes;
+      qb:DimensionProperty :WorkforceSize250More.
+
+:ds11_2_6 rdf:type qb:observation;
+      rdf:value 0.011;
+      qb:DimensionProperty  :Accreditedfinanceagreements;
+      qb:DimensionProperty :WorkforceSize250More.
+
+:ds11_2_7 rdf:type qb:observation;
+      rdf:value 0.163;
+      qb:DimensionProperty  :Wehaventreceivedanythatweappliedfor;
+      qb:DimensionProperty :WorkforceSize250More.
+
+:ds11_3_1 rdf:type qb:observation;
+      rdf:value 0.222;
+      qb:DimensionProperty  :CoronavirusJobRetentionScheme;
+      qb:DimensionProperty :Total.
+
+:ds11_3_2 rdf:type qb:observation;
+      rdf:value 0.191;
+      qb:DimensionProperty  :Businessratesholiday;
+      qb:DimensionProperty :Total.
+
+:ds11_3_3 rdf:type qb:observation;
+      rdf:value 0.427;
+      qb:DimensionProperty  :DeferringVATpayments;
+      qb:DimensionProperty :Total.
+
+:ds11_3_4 rdf:type qb:observation;
+      rdf:value 0.168;
+      qb:DimensionProperty  :HMRCTimeToPayscheme;
+      qb:DimensionProperty :Total.
+
+:ds11_3_5 rdf:type qb:observation;
+      rdf:value 0.07;
+      qb:DimensionProperty  :Governmentfundedsmallbusinessgrantorloanschemes;
+      qb:DimensionProperty :Total.
+
+:ds11_3_6 rdf:type qb:observation;
+      rdf:value 0.018;
+      qb:DimensionProperty  :Accreditedfinanceagreements;
+      qb:DimensionProperty :Total.
+
+:ds11_3_7 rdf:type qb:observation;
+      rdf:value 0.189;
+      qb:DimensionProperty  :Wehaventreceivedanythatweappliedfor;
+      qb:DimensionProperty :Total.
+

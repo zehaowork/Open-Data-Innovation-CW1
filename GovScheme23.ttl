@@ -1,0 +1,130 @@
+#Dataset
+:ds13 rdf:type qb:dataset;
+	 dc:title"Government Scheme3 By Workforce";
+     qb:observation :ds13_1_1;
+     qb:observation :ds13_1_2;
+     qb:observation :ds13_1_3;
+     qb:observation :ds13_1_4;
+     qb:observation :ds13_1_5;
+     qb:observation :ds13_1_6;
+     qb:observation :ds13_1_7;
+     qb:observation :ds13_2_1;
+     qb:observation :ds13_2_2;
+     qb:observation :ds13_2_3;
+     qb:observation :ds13_2_4;
+     qb:observation :ds13_2_5;
+     qb:observation :ds13_2_6;
+     qb:observation :ds13_2_7;
+     qb:observation :ds13_3_1;
+     qb:observation :ds13_3_2;
+     qb:observation :ds13_3_3;
+     qb:observation :ds13_3_4;
+     qb:observation :ds13_3_5;
+     qb:observation :ds13_3_6;
+     qb:observation :ds13_3_7.
+.
+:ds13_1_1 rdf:type qb:observation;
+      rdf:value 0.367;
+      qb:DimensionProperty  :CoronavirusJobRetentionScheme;
+      qb:DimensionProperty :WorkforceSizeLessThan250.
+
+:ds13_1_2 rdf:type qb:observation;
+      rdf:value 0.089;
+      qb:DimensionProperty  :Businessratesholiday;
+      qb:DimensionProperty :WorkforceSizeLessThan250.
+
+:ds13_1_3 rdf:type qb:observation;
+      rdf:value 0.202;
+      qb:DimensionProperty  :DeferringVATpayments;
+      qb:DimensionProperty :WorkforceSizeLessThan250.
+
+:ds13_1_4 rdf:type qb:observation;
+      rdf:value 0.094;
+      qb:DimensionProperty  :HMRCTimeToPayscheme;
+      qb:DimensionProperty :WorkforceSizeLessThan250.
+
+:ds13_1_5 rdf:type qb:observation;
+      rdf:value 0.046;
+      qb:DimensionProperty  :Governmentfundedsmallbusinessgrantorloanschemes;
+      qb:DimensionProperty :WorkforceSizeLessThan250.
+
+:ds13_1_6 rdf:type qb:observation;
+      rdf:value 0.085;
+      qb:DimensionProperty  :Accreditedfinanceagreements;
+      qb:DimensionProperty :WorkforceSizeLessThan250.
+
+:ds13_1_7 rdf:type qb:observation;
+      rdf:value 0.48;
+      qb:DimensionProperty  :Noneoftheabove;
+      qb:DimensionProperty :WorkforceSizeLessThan250.
+
+:ds13_2_1 rdf:type qb:observation;
+      rdf:value 0.37;
+      qb:DimensionProperty  :CoronavirusJobRetentionScheme;
+      qb:DimensionProperty :WorkforceSize250More.
+
+:ds13_2_2 rdf:type qb:observation;
+      rdf:value 0.094;
+      qb:DimensionProperty  :Businessratesholiday;
+      qb:DimensionProperty :WorkforceSize250More.
+
+:ds13_2_3 rdf:type qb:observation;
+      rdf:value 0.169;
+      qb:DimensionProperty  :DeferringVATpayments;
+      qb:DimensionProperty :WorkforceSize250More.
+
+:ds13_2_4 rdf:type qb:observation;
+      rdf:value 0.078;
+      qb:DimensionProperty  :HMRCTimeToPayscheme;
+      qb:DimensionProperty :WorkforceSize250More.
+
+:ds13_2_5 rdf:type qb:observation;
+      rdf:value 0.027;
+      qb:DimensionProperty  :Governmentfundedsmallbusinessgrantorloanschemes;
+      qb:DimensionProperty :WorkforceSize250More.
+
+:ds13_2_6 rdf:type qb:observation;
+      rdf:value 0.072;
+      qb:DimensionProperty  :Accreditedfinanceagreements;
+      qb:DimensionProperty :WorkforceSize250More.
+
+:ds13_2_7 rdf:type qb:observation;
+      rdf:value 0.486;
+      qb:DimensionProperty  :Noneoftheabove;
+      qb:DimensionProperty :WorkforceSize250More.
+
+:ds13_3_1 rdf:type qb:observation;
+      rdf:value 0.368;
+      qb:DimensionProperty  :CoronavirusJobRetentionScheme;
+      qb:DimensionProperty :Total.
+
+:ds13_3_2 rdf:type qb:observation;
+      rdf:value 0.091;
+      qb:DimensionProperty  :Businessratesholiday;
+      qb:DimensionProperty :Total.
+
+:ds13_3_3 rdf:type qb:observation;
+      rdf:value 0.19;
+      qb:DimensionProperty  :DeferringVATpayments;
+      qb:DimensionProperty :Total.
+
+:ds13_3_4 rdf:type qb:observation;
+      rdf:value 0.088;
+      qb:DimensionProperty  :HMRCTimeToPayscheme;
+      qb:DimensionProperty :Total.
+
+:ds13_3_5 rdf:type qb:observation;
+      rdf:value 0.039;
+      qb:DimensionProperty  :Governmentfundedsmallbusinessgrantorloanschemes;
+      qb:DimensionProperty :Total.
+
+:ds13_3_6 rdf:type qb:observation;
+      rdf:value 0.08;
+      qb:DimensionProperty  :Accreditedfinanceagreements;
+      qb:DimensionProperty :Total.
+
+:ds13_3_7 rdf:type qb:observation;
+      rdf:value 0.482;
+      qb:DimensionProperty  :Noneoftheabove;
+      qb:DimensionProperty :Total.
+

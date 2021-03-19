@@ -1,0 +1,238 @@
+#Dataset
+:ds3 rdf:type qb:dataset;
+	 dc:title"Proportion of Responses";
+     qb:observation :ds3_1_1;
+     qb:observation :ds3_1_2;
+     qb:observation :ds3_1_3;
+     qb:observation :ds3_2_1;
+     qb:observation :ds3_2_2;
+     qb:observation :ds3_2_3;
+     qb:observation :ds3_3_1;
+     qb:observation :ds3_3_2;
+     qb:observation :ds3_3_3;
+     qb:observation :ds3_4_1;
+     qb:observation :ds3_4_2;
+     qb:observation :ds3_4_3;
+     qb:observation :ds3_5_1;
+     qb:observation :ds3_5_2;
+     qb:observation :ds3_5_3;
+     qb:observation :ds3_6_1;
+     qb:observation :ds3_6_2;
+     qb:observation :ds3_6_3;
+     qb:observation :ds3_7_1;
+     qb:observation :ds3_7_2;
+     qb:observation :ds3_7_3;
+     qb:observation :ds3_8_1;
+     qb:observation :ds3_8_2;
+     qb:observation :ds3_8_3;
+     qb:observation :ds3_9_1;
+     qb:observation :ds3_9_2;
+     qb:observation :ds3_9_3;
+     qb:observation :ds3_10_1;
+     qb:observation :ds3_10_2;
+     qb:observation :ds3_10_3;
+     qb:observation :ds3_11_1;
+     qb:observation :ds3_11_2;
+     qb:observation :ds3_11_3;
+     qb:observation :ds3_12_1;
+     qb:observation :ds3_12_2;
+     qb:observation :ds3_12_3;
+     qb:observation :ds3_13_1;
+     qb:observation :ds3_13_2;
+     qb:observation :ds3_13_3.
+.
+:ds3_1_1 rdf:type qb:observation;
+      rdf:value 0.363;
+      qb:DimensionProperty  :WorkforceSizeLessThan250;
+      qb:DimensionProperty :Manufacturing.
+
+:ds3_1_2 rdf:type qb:observation;
+      rdf:value 0.328;
+      qb:DimensionProperty  :WorkforceSize250More;
+      qb:DimensionProperty :Manufacturing.
+
+:ds3_1_3 rdf:type qb:observation;
+      rdf:value 0.348;
+      qb:DimensionProperty  :Total;
+      qb:DimensionProperty :Manufacturing.
+
+:ds3_2_1 rdf:type qb:observation;
+      rdf:value 0.385;
+      qb:DimensionProperty  :WorkforceSizeLessThan250;
+      qb:DimensionProperty :WaterSupplySewerageWasteManagementAndRemediationActivities.
+
+:ds3_2_2 rdf:type qb:observation;
+      rdf:value 0.282;
+      qb:DimensionProperty  :WorkforceSize250More;
+      qb:DimensionProperty :WaterSupplySewerageWasteManagementAndRemediationActivities.
+
+:ds3_2_3 rdf:type qb:observation;
+      rdf:value 0.348;
+      qb:DimensionProperty  :Total;
+      qb:DimensionProperty :WaterSupplySewerageWasteManagementAndRemediationActivities.
+
+:ds3_3_1 rdf:type qb:observation;
+      rdf:value 0.288;
+      qb:DimensionProperty  :WorkforceSizeLessThan250;
+      qb:DimensionProperty :Construction.
+
+:ds3_3_2 rdf:type qb:observation;
+      rdf:value 0.244;
+      qb:DimensionProperty  :WorkforceSize250More;
+      qb:DimensionProperty :Construction.
+
+:ds3_3_3 rdf:type qb:observation;
+      rdf:value 2.175;
+      qb:DimensionProperty  :Total;
+      qb:DimensionProperty :Construction.
+
+:ds3_4_1 rdf:type qb:observation;
+      rdf:value 0.377;
+      qb:DimensionProperty  :WorkforceSizeLessThan250;
+      qb:DimensionProperty :WholesaleAndRetailTradeRepairOfMotorVehiclesAndMotorcycles.
+
+:ds3_4_2 rdf:type qb:observation;
+      rdf:value 0.292;
+      qb:DimensionProperty  :WorkforceSize250More;
+      qb:DimensionProperty :WholesaleAndRetailTradeRepairOfMotorVehiclesAndMotorcycles.
+
+:ds3_4_3 rdf:type qb:observation;
+      rdf:value 0.343;
+      qb:DimensionProperty  :Total;
+      qb:DimensionProperty :WholesaleAndRetailTradeRepairOfMotorVehiclesAndMotorcycles.
+
+:ds3_5_1 rdf:type qb:observation;
+      rdf:value 0.329;
+      qb:DimensionProperty  :WorkforceSizeLessThan250;
+      qb:DimensionProperty :AccommodationAndFoodServiceActivities.
+
+:ds3_5_2 rdf:type qb:observation;
+      rdf:value 0.296;
+      qb:DimensionProperty  :WorkforceSize250More;
+      qb:DimensionProperty :AccommodationAndFoodServiceActivities.
+
+:ds3_5_3 rdf:type qb:observation;
+      rdf:value 0.316;
+      qb:DimensionProperty  :Total;
+      qb:DimensionProperty :AccommodationAndFoodServiceActivities.
+
+:ds3_6_1 rdf:type qb:observation;
+      rdf:value 0.366;
+      qb:DimensionProperty  :WorkforceSizeLessThan250;
+      qb:DimensionProperty :TransportationAndStorage.
+
+:ds3_6_2 rdf:type qb:observation;
+      rdf:value 0.266;
+      qb:DimensionProperty  :WorkforceSize250More;
+      qb:DimensionProperty :TransportationAndStorage.
+
+:ds3_6_3 rdf:type qb:observation;
+      rdf:value 0.327;
+      qb:DimensionProperty  :Total;
+      qb:DimensionProperty :TransportationAndStorage.
+
+:ds3_7_1 rdf:type qb:observation;
+      rdf:value 0.374;
+      qb:DimensionProperty  :WorkforceSizeLessThan250;
+      qb:DimensionProperty :InformationAndCommunication.
+
+:ds3_7_2 rdf:type qb:observation;
+      rdf:value 0.287;
+      qb:DimensionProperty  :WorkforceSize250More;
+      qb:DimensionProperty :InformationAndCommunication.
+
+:ds3_7_3 rdf:type qb:observation;
+      rdf:value 0.344;
+      qb:DimensionProperty  :Total;
+      qb:DimensionProperty :InformationAndCommunication.
+
+:ds3_8_1 rdf:type qb:observation;
+      rdf:value 0.359;
+      qb:DimensionProperty  :WorkforceSizeLessThan250;
+      qb:DimensionProperty :ProfessionalScientificAndTechnicalActivities.
+
+:ds3_8_2 rdf:type qb:observation;
+      rdf:value 0.368;
+      qb:DimensionProperty  :WorkforceSize250More;
+      qb:DimensionProperty :ProfessionalScientificAndTechnicalActivities.
+
+:ds3_8_3 rdf:type qb:observation;
+      rdf:value 0.362;
+      qb:DimensionProperty  :Total;
+      qb:DimensionProperty :ProfessionalScientificAndTechnicalActivities.
+
+:ds3_9_1 rdf:type qb:observation;
+      rdf:value 0.352;
+      qb:DimensionProperty  :WorkforceSizeLessThan250;
+      qb:DimensionProperty :AdministrativeAndSupportServiceActivities.
+
+:ds3_9_2 rdf:type qb:observation;
+      rdf:value 0.337;
+      qb:DimensionProperty  :WorkforceSize250More;
+      qb:DimensionProperty :AdministrativeAndSupportServiceActivities.
+
+:ds3_9_3 rdf:type qb:observation;
+      rdf:value 0.345;
+      qb:DimensionProperty  :Total;
+      qb:DimensionProperty :AdministrativeAndSupportServiceActivities.
+
+:ds3_10_1 rdf:type qb:observation;
+      rdf:value 0.419;
+      qb:DimensionProperty  :WorkforceSizeLessThan250;
+      qb:DimensionProperty :Education.
+
+:ds3_10_2 rdf:type qb:observation;
+      rdf:value 0.418;
+      qb:DimensionProperty  :WorkforceSize250More;
+      qb:DimensionProperty :Education.
+
+:ds3_10_3 rdf:type qb:observation;
+      rdf:value 0.418;
+      qb:DimensionProperty  :Total;
+      qb:DimensionProperty :Education.
+
+:ds3_11_1 rdf:type qb:observation;
+      rdf:value 0.586;
+      qb:DimensionProperty  :WorkforceSizeLessThan250;
+      qb:DimensionProperty :HumanHealthAndSocialWorkActivities.
+
+:ds3_11_2 rdf:type qb:observation;
+      rdf:value 0.396;
+      qb:DimensionProperty  :WorkforceSize250More;
+      qb:DimensionProperty :HumanHealthAndSocialWorkActivities.
+
+:ds3_11_3 rdf:type qb:observation;
+      rdf:value 0.49;
+      qb:DimensionProperty  :Total;
+      qb:DimensionProperty :HumanHealthAndSocialWorkActivities.
+
+:ds3_12_1 rdf:type qb:observation;
+      rdf:value 0.434;
+      qb:DimensionProperty  :WorkforceSizeLessThan250;
+      qb:DimensionProperty :ArtsEntertainmentAndRecreation.
+
+:ds3_12_2 rdf:type qb:observation;
+      rdf:value 0.323;
+      qb:DimensionProperty  :WorkforceSize250More;
+      qb:DimensionProperty :ArtsEntertainmentAndRecreation.
+
+:ds3_12_3 rdf:type qb:observation;
+      rdf:value 0.387;
+      qb:DimensionProperty  :Total;
+      qb:DimensionProperty :ArtsEntertainmentAndRecreation.
+
+:ds3_13_1 rdf:type qb:observation;
+      rdf:value 0.365;
+      qb:DimensionProperty  :WorkforceSizeLessThan250;
+      qb:DimensionProperty :AllIndustries.
+
+:ds3_13_2 rdf:type qb:observation;
+      rdf:value 0.321;
+      qb:DimensionProperty  :WorkforceSize250More;
+      qb:DimensionProperty :AllIndustries.
+
+:ds3_13_3 rdf:type qb:observation;
+      rdf:value 0.347;
+      qb:DimensionProperty  :Total;
+      qb:DimensionProperty :AllIndustries.
+

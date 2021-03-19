@@ -1,0 +1,238 @@
+#Dataset
+:ds4 rdf:type qb:dataset;
+	 dc:title"Trading Status By Industry";
+     qb:observation :ds4_1_1;
+     qb:observation :ds4_1_2;
+     qb:observation :ds4_1_3;
+     qb:observation :ds4_2_1;
+     qb:observation :ds4_2_2;
+     qb:observation :ds4_2_3;
+     qb:observation :ds4_3_1;
+     qb:observation :ds4_3_2;
+     qb:observation :ds4_3_3;
+     qb:observation :ds4_4_1;
+     qb:observation :ds4_4_2;
+     qb:observation :ds4_4_3;
+     qb:observation :ds4_5_1;
+     qb:observation :ds4_5_2;
+     qb:observation :ds4_5_3;
+     qb:observation :ds4_6_1;
+     qb:observation :ds4_6_2;
+     qb:observation :ds4_6_3;
+     qb:observation :ds4_7_1;
+     qb:observation :ds4_7_2;
+     qb:observation :ds4_7_3;
+     qb:observation :ds4_8_1;
+     qb:observation :ds4_8_2;
+     qb:observation :ds4_8_3;
+     qb:observation :ds4_9_1;
+     qb:observation :ds4_9_2;
+     qb:observation :ds4_9_3;
+     qb:observation :ds4_10_1;
+     qb:observation :ds4_10_2;
+     qb:observation :ds4_10_3;
+     qb:observation :ds4_11_1;
+     qb:observation :ds4_11_2;
+     qb:observation :ds4_11_3;
+     qb:observation :ds4_12_1;
+     qb:observation :ds4_12_2;
+     qb:observation :ds4_12_3;
+     qb:observation :ds4_13_1;
+     qb:observation :ds4_13_2;
+     qb:observation :ds4_13_3.
+.
+:ds4_1_1 rdf:type qb:observation;
+      rdf:value 0.79;
+      qb:DimensionProperty  :Continuingtotrade;
+      qb:DimensionProperty :Manufacturing.
+
+:ds4_1_2 rdf:type qb:observation;
+      rdf:value 0;
+      qb:DimensionProperty  :Haspermanentlyceasedtrading;
+      qb:DimensionProperty :Manufacturing.
+
+:ds4_1_3 rdf:type qb:observation;
+      rdf:value 0.206;
+      qb:DimensionProperty  :Hastemporarilyclosedortemporarilypausedtrading;
+      qb:DimensionProperty :Manufacturing.
+
+:ds4_2_1 rdf:type qb:observation;
+      rdf:value 0.9;
+      qb:DimensionProperty  :Continuingtotrade;
+      qb:DimensionProperty :WaterSupplySewerageWasteManagementAndRemediationActivities.
+
+:ds4_2_2 rdf:type qb:observation;
+      rdf:value 0;
+      qb:DimensionProperty  :Haspermanentlyceasedtrading;
+      qb:DimensionProperty :WaterSupplySewerageWasteManagementAndRemediationActivities.
+
+:ds4_2_3 rdf:type qb:observation;
+      rdf:value 0.1;
+      qb:DimensionProperty  :Hastemporarilyclosedortemporarilypausedtrading;
+      qb:DimensionProperty :WaterSupplySewerageWasteManagementAndRemediationActivities.
+
+:ds4_3_1 rdf:type qb:observation;
+      rdf:value 0.732;
+      qb:DimensionProperty  :Continuingtotrade;
+      qb:DimensionProperty :Construction.
+
+:ds4_3_2 rdf:type qb:observation;
+      rdf:value 0;
+      qb:DimensionProperty  :Haspermanentlyceasedtrading;
+      qb:DimensionProperty :Construction.
+
+:ds4_3_3 rdf:type qb:observation;
+      rdf:value 0.261;
+      qb:DimensionProperty  :Hastemporarilyclosedortemporarilypausedtrading;
+      qb:DimensionProperty :Construction.
+
+:ds4_4_1 rdf:type qb:observation;
+      rdf:value 0.752;
+      qb:DimensionProperty  :Continuingtotrade;
+      qb:DimensionProperty :WholesaleAndRetailTradeRepairOfMotorVehiclesAndMotorcycles.
+
+:ds4_4_2 rdf:type qb:observation;
+      rdf:value 0;
+      qb:DimensionProperty  :Haspermanentlyceasedtrading;
+      qb:DimensionProperty :WholesaleAndRetailTradeRepairOfMotorVehiclesAndMotorcycles.
+
+:ds4_4_3 rdf:type qb:observation;
+      rdf:value 0.243;
+      qb:DimensionProperty  :Hastemporarilyclosedortemporarilypausedtrading;
+      qb:DimensionProperty :WholesaleAndRetailTradeRepairOfMotorVehiclesAndMotorcycles.
+
+:ds4_5_1 rdf:type qb:observation;
+      rdf:value 0.182;
+      qb:DimensionProperty  :Continuingtotrade;
+      qb:DimensionProperty :AccommodationAndFoodServiceActivities.
+
+:ds4_5_2 rdf:type qb:observation;
+      rdf:value 0.012;
+      qb:DimensionProperty  :Haspermanentlyceasedtrading;
+      qb:DimensionProperty :AccommodationAndFoodServiceActivities.
+
+:ds4_5_3 rdf:type qb:observation;
+      rdf:value 0.806;
+      qb:DimensionProperty  :Hastemporarilyclosedortemporarilypausedtrading;
+      qb:DimensionProperty :AccommodationAndFoodServiceActivities.
+
+:ds4_6_1 rdf:type qb:observation;
+      rdf:value 0.915;
+      qb:DimensionProperty  :Continuingtotrade;
+      qb:DimensionProperty :TransportationAndStorage.
+
+:ds4_6_2 rdf:type qb:observation;
+      rdf:value 0;
+      qb:DimensionProperty  :Haspermanentlyceasedtrading;
+      qb:DimensionProperty :TransportationAndStorage.
+
+:ds4_6_3 rdf:type qb:observation;
+      rdf:value 0.085;
+      qb:DimensionProperty  :Hastemporarilyclosedortemporarilypausedtrading;
+      qb:DimensionProperty :TransportationAndStorage.
+
+:ds4_7_1 rdf:type qb:observation;
+      rdf:value 0.95;
+      qb:DimensionProperty  :Continuingtotrade;
+      qb:DimensionProperty :InformationAndCommunication.
+
+:ds4_7_2 rdf:type qb:observation;
+      rdf:value 0;
+      qb:DimensionProperty  :Haspermanentlyceasedtrading;
+      qb:DimensionProperty :InformationAndCommunication.
+
+:ds4_7_3 rdf:type qb:observation;
+      rdf:value 0.0451232;
+      qb:DimensionProperty  :Hastemporarilyclosedortemporarilypausedtrading;
+      qb:DimensionProperty :InformationAndCommunication.
+
+:ds4_8_1 rdf:type qb:observation;
+      rdf:value 0.967;
+      qb:DimensionProperty  :Continuingtotrade;
+      qb:DimensionProperty :ProfessionalScientificAndTechnicalActivities.
+
+:ds4_8_2 rdf:type qb:observation;
+      rdf:value 0;
+      qb:DimensionProperty  :Haspermanentlyceasedtrading;
+      qb:DimensionProperty :ProfessionalScientificAndTechnicalActivities.
+
+:ds4_8_3 rdf:type qb:observation;
+      rdf:value 0.03;
+      qb:DimensionProperty  :Hastemporarilyclosedortemporarilypausedtrading;
+      qb:DimensionProperty :ProfessionalScientificAndTechnicalActivities.
+
+:ds4_9_1 rdf:type qb:observation;
+      rdf:value 0.915;
+      qb:DimensionProperty  :Continuingtotrade;
+      qb:DimensionProperty :AdministrativeAndSupportServiceActivities.
+
+:ds4_9_2 rdf:type qb:observation;
+      rdf:value 0;
+      qb:DimensionProperty  :Haspermanentlyceasedtrading;
+      qb:DimensionProperty :AdministrativeAndSupportServiceActivities.
+
+:ds4_9_3 rdf:type qb:observation;
+      rdf:value 0.081;
+      qb:DimensionProperty  :Hastemporarilyclosedortemporarilypausedtrading;
+      qb:DimensionProperty :AdministrativeAndSupportServiceActivities.
+
+:ds4_10_1 rdf:type qb:observation;
+      rdf:value 0.868;
+      qb:DimensionProperty  :Continuingtotrade;
+      qb:DimensionProperty :Education.
+
+:ds4_10_2 rdf:type qb:observation;
+      rdf:value 0;
+      qb:DimensionProperty  :Haspermanentlyceasedtrading;
+      qb:DimensionProperty :Education.
+
+:ds4_10_3 rdf:type qb:observation;
+      rdf:value 0.126;
+      qb:DimensionProperty  :Hastemporarilyclosedortemporarilypausedtrading;
+      qb:DimensionProperty :Education.
+
+:ds4_11_1 rdf:type qb:observation;
+      rdf:value 0.938;
+      qb:DimensionProperty  :Continuingtotrade;
+      qb:DimensionProperty :HumanHealthAndSocialWorkActivities.
+
+:ds4_11_2 rdf:type qb:observation;
+      rdf:value 0.014;
+      qb:DimensionProperty  :Haspermanentlyceasedtrading;
+      qb:DimensionProperty :HumanHealthAndSocialWorkActivities.
+
+:ds4_11_3 rdf:type qb:observation;
+      rdf:value 0.049;
+      qb:DimensionProperty  :Hastemporarilyclosedortemporarilypausedtrading;
+      qb:DimensionProperty :HumanHealthAndSocialWorkActivities.
+
+:ds4_12_1 rdf:type qb:observation;
+      rdf:value 0.205;
+      qb:DimensionProperty  :Continuingtotrade;
+      qb:DimensionProperty :ArtsEntertainmentAndRecreation.
+
+:ds4_12_2 rdf:type qb:observation;
+      rdf:value 0;
+      qb:DimensionProperty  :Haspermanentlyceasedtrading;
+      qb:DimensionProperty :ArtsEntertainmentAndRecreation.
+
+:ds4_12_3 rdf:type qb:observation;
+      rdf:value 0.795;
+      qb:DimensionProperty  :Hastemporarilyclosedortemporarilypausedtrading;
+      qb:DimensionProperty :ArtsEntertainmentAndRecreation.
+
+:ds4_13_1 rdf:type qb:observation;
+      rdf:value 0.767;
+      qb:DimensionProperty  :Continuingtotrade;
+      qb:DimensionProperty :AllIndustries.
+
+:ds4_13_2 rdf:type qb:observation;
+      rdf:value 0;
+      qb:DimensionProperty  :Haspermanentlyceasedtrading;
+      qb:DimensionProperty :AllIndustries.
+
+:ds4_13_3 rdf:type qb:observation;
+      rdf:value 0.228;
+      qb:DimensionProperty  :Hastemporarilyclosedortemporarilypausedtrading;
+      qb:DimensionProperty :AllIndustries.
+

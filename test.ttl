@@ -1,0 +1,111 @@
+@prefix : <BCISSurvey.com/data/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix qb: <http://purl.org/linked-dat/cube#> .
+@prefix survey: <http://enakting.org/schema/survey/> .
+
+:MiningAndQuarrying rdf:type survey:Industry;
+     dc:title "Mining And Quarrying".
+
+:Manufacturing rdf:type survey:Industry;
+     dc:title "Manufacturing".
+
+:WaterSupplySewerageWasteManagementAndRemediationActivities rdf:type survey:Industry;
+     dc:title "Water Supply, Sewerage, Waste Management And Remediation Activities".
+
+:Construction rdf:type survey:Industry;
+     dc:title "Construction".
+
+:WholesaleAndRetailTradeRepairOfMotorVehiclesAndMotorcycles rdf:type survey:Industry;
+     dc:title "Wholesale And Retail Trade; Repair Of Motor Vehicles And Motorcycles".
+
+:AccommodationAndFoodServiceActivities rdf:type survey:Industry;
+     dc:title "Accommodation And Food Service Activities".
+
+:TransportationAndStorage rdf:type survey:Industry;
+     dc:title "Transportation And Storage".
+
+:InformationAndCommunication rdf:type survey:Industry;
+     dc:title "Information And Communication".
+
+:RealEstateActivities rdf:type survey:Industry;
+     dc:title "Real Estate Activities".
+
+:ProfessionalScientificAndTechnicalActivities rdf:type survey:Industry;
+     dc:title "Professional, Scientific And Technical Activities".
+
+:AdministrativeAndSupportServiceActivities rdf:type survey:Industry;
+     dc:title "Administrative And Support Service Activities".
+
+:Education rdf:type survey:Industry;
+     dc:title "Education".
+
+:HumanHealthAndSocialWorkActivities rdf:type survey:Industry;
+     dc:title "Human Health And Social Work Activities".
+
+:ArtsEntertainmentAndRecreation rdf:type survey:Industry;
+     dc:title "Arts, Entertainment And Recreation".
+
+:OtherServiceActivities rdf:type survey:Industry;
+     dc:title "Other Service Activities".
+
+:AllIndustries rdf:type survey:Industry;
+     dc:title "All Industries".
+
+:WorkforceSizeLessThan250 rdf:type survey:WorkForce;
+     dc:title "Workforce Size < 250".
+
+:WorkforceSize250More rdf:type survey:WorkForce;
+     dc:title "Workforce Size 250 +".
+
+:Total rdf:type survey:WorkForce;
+     dc:title "Total".
+
+:England rdf:type survey:Country;
+     dc:title "England".
+
+:Wales rdf:type survey:Country;
+     dc:title "Wales".
+
+:Scotland rdf:type survey:Country;
+     dc:title "Scotland".
+
+:NorthernIreland rdf:type survey:Country;
+     dc:title "Northern Ireland".
+
+:UK rdf:type survey:Country;
+     dc:title "UK".
+
+:Continuingtotrade rdf:type survey:TradingStatus;
+     dc:title "Continuing to trade".
+
+:Haspermanentlyceasedtrading rdf:type survey:TradingStatus;
+     dc:title "Has permanently ceased trading **".
+
+:Hastemporarilyclosedortemporarilypausedtrading rdf:type survey:TradingStatus;
+     dc:title "Has temporarily closed or temporarily paused trading".
+
+:CoronavirusJobRetentionScheme rdf:type survey:SchemeType;
+     dc:title "Coronavirus Job Retention Scheme".
+
+:Businessratesholiday rdf:type survey:SchemeType;
+     dc:title "Business rates holiday".
+
+:DeferringVATpayments rdf:type survey:SchemeType;
+     dc:title "Deferring VAT payments".
+
+:HMRCTimeToPayscheme rdf:type survey:SchemeType;
+     dc:title "HMRC Time To Pay scheme".
+
+:Governmentfundedsmallbusinessgrantorloanschemes rdf:type survey:SchemeType;
+     dc:title "Government-funded small business grant or loan schemes".
+
+:Accreditedfinanceagreements rdf:type survey:SchemeType;
+     dc:title "Accredited finance agreements".
+
+:Noneoftheabove rdf:type survey:SchemeType;
+     dc:title "None of the above".
+

@@ -1,0 +1,94 @@
+#Dataset
+:ds6 rdf:type qb:dataset;
+	 dc:title"Trading Status By Country";
+     qb:observation :ds6_1_1;
+     qb:observation :ds6_1_2;
+     qb:observation :ds6_1_3;
+     qb:observation :ds6_2_1;
+     qb:observation :ds6_2_2;
+     qb:observation :ds6_2_3;
+     qb:observation :ds6_3_1;
+     qb:observation :ds6_3_2;
+     qb:observation :ds6_3_3;
+     qb:observation :ds6_4_1;
+     qb:observation :ds6_4_2;
+     qb:observation :ds6_4_3;
+     qb:observation :ds6_5_1;
+     qb:observation :ds6_5_2;
+     qb:observation :ds6_5_3.
+.
+:ds6_1_1 rdf:type qb:observation;
+      rdf:value 0.778;
+      qb:DimensionProperty  :Continuingtotrade;
+      qb:DimensionProperty :England.
+
+:ds6_1_2 rdf:type qb:observation;
+      rdf:value 0.0;
+      qb:DimensionProperty  :Haspermanentlyceasedtrading;
+      qb:DimensionProperty :England.
+
+:ds6_1_3 rdf:type qb:observation;
+      rdf:value 0.218;
+      qb:DimensionProperty  :Hastemporarilyclosedortemporarilypausedtrading;
+      qb:DimensionProperty :England.
+
+:ds6_2_1 rdf:type qb:observation;
+      rdf:value 0.762;
+      qb:DimensionProperty  :Continuingtotrade;
+      qb:DimensionProperty :Wales.
+
+:ds6_2_2 rdf:type qb:observation;
+      rdf:value 0.011;
+      qb:DimensionProperty  :Haspermanentlyceasedtrading;
+      qb:DimensionProperty :Wales.
+
+:ds6_2_3 rdf:type qb:observation;
+      rdf:value 0.227;
+      qb:DimensionProperty  :Hastemporarilyclosedortemporarilypausedtrading;
+      qb:DimensionProperty :Wales.
+
+:ds6_3_1 rdf:type qb:observation;
+      rdf:value 0.776;
+      qb:DimensionProperty  :Continuingtotrade;
+      qb:DimensionProperty :Scotland.
+
+:ds6_3_2 rdf:type qb:observation;
+      rdf:value 0.0;
+      qb:DimensionProperty  :Haspermanentlyceasedtrading;
+      qb:DimensionProperty :Scotland.
+
+:ds6_3_3 rdf:type qb:observation;
+      rdf:value 0.217;
+      qb:DimensionProperty  :Hastemporarilyclosedortemporarilypausedtrading;
+      qb:DimensionProperty :Scotland.
+
+:ds6_4_1 rdf:type qb:observation;
+      rdf:value 0.728;
+      qb:DimensionProperty  :Continuingtotrade;
+      qb:DimensionProperty :NorthernIreland.
+
+:ds6_4_2 rdf:type qb:observation;
+      rdf:value 0.0;
+      qb:DimensionProperty  :Haspermanentlyceasedtrading;
+      qb:DimensionProperty :NorthernIreland.
+
+:ds6_4_3 rdf:type qb:observation;
+      rdf:value 0.272;
+      qb:DimensionProperty  :Hastemporarilyclosedortemporarilypausedtrading;
+      qb:DimensionProperty :NorthernIreland.
+
+:ds6_5_1 rdf:type qb:observation;
+      rdf:value 0.767;
+      qb:DimensionProperty  :Continuingtotrade;
+      qb:DimensionProperty :UK.
+
+:ds6_5_2 rdf:type qb:observation;
+      rdf:value 0.0;
+      qb:DimensionProperty  :Haspermanentlyceasedtrading;
+      qb:DimensionProperty :UK.
+
+:ds6_5_3 rdf:type qb:observation;
+      rdf:value 0.228;
+      qb:DimensionProperty  :Hastemporarilyclosedortemporarilypausedtrading;
+      qb:DimensionProperty :UK.
+

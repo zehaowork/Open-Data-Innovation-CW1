@@ -1,0 +1,58 @@
+#Dataset
+:ds5 rdf:type qb:dataset;
+	 dc:title"Trading Status By Workforce";
+     qb:observation :ds5_1_1;
+     qb:observation :ds5_1_2;
+     qb:observation :ds5_1_3;
+     qb:observation :ds5_2_1;
+     qb:observation :ds5_2_2;
+     qb:observation :ds5_2_3;
+     qb:observation :ds5_3_1;
+     qb:observation :ds5_3_2;
+     qb:observation :ds5_3_3.
+.
+:ds5_1_1 rdf:type qb:observation;
+      rdf:value 0.748;
+      qb:DimensionProperty  :Continuingtotrade;
+      qb:DimensionProperty :WorkforceSizeLessThan250.
+
+:ds5_1_2 rdf:type qb:observation;
+      rdf:value 0;
+      qb:DimensionProperty  :Haspermanentlyceasedtrading;
+      qb:DimensionProperty :WorkforceSizeLessThan250.
+
+:ds5_1_3 rdf:type qb:observation;
+      rdf:value 0.247;
+      qb:DimensionProperty  :Hastemporarilyclosedortemporarilypausedtrading;
+      qb:DimensionProperty :WorkforceSizeLessThan250.
+
+:ds5_2_1 rdf:type qb:observation;
+      rdf:value 0.798;
+      qb:DimensionProperty  :Continuingtotrade;
+      qb:DimensionProperty :WorkforceSize250More.
+
+:ds5_2_2 rdf:type qb:observation;
+      rdf:value 0;
+      qb:DimensionProperty  :Haspermanentlyceasedtrading;
+      qb:DimensionProperty :WorkforceSize250More.
+
+:ds5_2_3 rdf:type qb:observation;
+      rdf:value 0.197;
+      qb:DimensionProperty  :Hastemporarilyclosedortemporarilypausedtrading;
+      qb:DimensionProperty :WorkforceSize250More.
+
+:ds5_3_1 rdf:type qb:observation;
+      rdf:value 0.767;
+      qb:DimensionProperty  :Continuingtotrade;
+      qb:DimensionProperty :Total.
+
+:ds5_3_2 rdf:type qb:observation;
+      rdf:value 0;
+      qb:DimensionProperty  :Haspermanentlyceasedtrading;
+      qb:DimensionProperty :Total.
+
+:ds5_3_3 rdf:type qb:observation;
+      rdf:value 0.228;
+      qb:DimensionProperty  :Hastemporarilyclosedortemporarilypausedtrading;
+      qb:DimensionProperty :Total.
+

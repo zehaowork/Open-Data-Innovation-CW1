@@ -1,0 +1,550 @@
+#Dataset
+:ds10 rdf:type qb:dataset;
+	 dc:title"Government Scheme2 By Industry";
+     qb:observation :ds10_1_1;
+     qb:observation :ds10_1_2;
+     qb:observation :ds10_1_3;
+     qb:observation :ds10_1_4;
+     qb:observation :ds10_1_5;
+     qb:observation :ds10_1_6;
+     qb:observation :ds10_1_7;
+     qb:observation :ds10_2_1;
+     qb:observation :ds10_2_2;
+     qb:observation :ds10_2_3;
+     qb:observation :ds10_2_4;
+     qb:observation :ds10_2_5;
+     qb:observation :ds10_2_6;
+     qb:observation :ds10_2_7;
+     qb:observation :ds10_3_1;
+     qb:observation :ds10_3_2;
+     qb:observation :ds10_3_3;
+     qb:observation :ds10_3_4;
+     qb:observation :ds10_3_5;
+     qb:observation :ds10_3_6;
+     qb:observation :ds10_3_7;
+     qb:observation :ds10_4_1;
+     qb:observation :ds10_4_2;
+     qb:observation :ds10_4_3;
+     qb:observation :ds10_4_4;
+     qb:observation :ds10_4_5;
+     qb:observation :ds10_4_6;
+     qb:observation :ds10_4_7;
+     qb:observation :ds10_5_1;
+     qb:observation :ds10_5_2;
+     qb:observation :ds10_5_3;
+     qb:observation :ds10_5_4;
+     qb:observation :ds10_5_5;
+     qb:observation :ds10_5_6;
+     qb:observation :ds10_5_7;
+     qb:observation :ds10_6_1;
+     qb:observation :ds10_6_2;
+     qb:observation :ds10_6_3;
+     qb:observation :ds10_6_4;
+     qb:observation :ds10_6_5;
+     qb:observation :ds10_6_6;
+     qb:observation :ds10_6_7;
+     qb:observation :ds10_7_1;
+     qb:observation :ds10_7_2;
+     qb:observation :ds10_7_3;
+     qb:observation :ds10_7_4;
+     qb:observation :ds10_7_5;
+     qb:observation :ds10_7_6;
+     qb:observation :ds10_7_7;
+     qb:observation :ds10_8_1;
+     qb:observation :ds10_8_2;
+     qb:observation :ds10_8_3;
+     qb:observation :ds10_8_4;
+     qb:observation :ds10_8_5;
+     qb:observation :ds10_8_6;
+     qb:observation :ds10_8_7;
+     qb:observation :ds10_9_1;
+     qb:observation :ds10_9_2;
+     qb:observation :ds10_9_3;
+     qb:observation :ds10_9_4;
+     qb:observation :ds10_9_5;
+     qb:observation :ds10_9_6;
+     qb:observation :ds10_9_7;
+     qb:observation :ds10_10_1;
+     qb:observation :ds10_10_2;
+     qb:observation :ds10_10_3;
+     qb:observation :ds10_10_4;
+     qb:observation :ds10_10_5;
+     qb:observation :ds10_10_6;
+     qb:observation :ds10_10_7;
+     qb:observation :ds10_11_1;
+     qb:observation :ds10_11_2;
+     qb:observation :ds10_11_3;
+     qb:observation :ds10_11_4;
+     qb:observation :ds10_11_5;
+     qb:observation :ds10_11_6;
+     qb:observation :ds10_11_7;
+     qb:observation :ds10_12_1;
+     qb:observation :ds10_12_2;
+     qb:observation :ds10_12_3;
+     qb:observation :ds10_12_4;
+     qb:observation :ds10_12_5;
+     qb:observation :ds10_12_6;
+     qb:observation :ds10_12_7;
+     qb:observation :ds10_13_1;
+     qb:observation :ds10_13_2;
+     qb:observation :ds10_13_3;
+     qb:observation :ds10_13_4;
+     qb:observation :ds10_13_5;
+     qb:observation :ds10_13_6;
+     qb:observation :ds10_13_7.
+.
+:ds10_1_1 rdf:type qb:observation;
+      rdf:value 0.199;
+      qb:DimensionProperty  :CoronavirusJobRetentionScheme;
+      qb:DimensionProperty :Manufacturing.
+
+:ds10_1_2 rdf:type qb:observation;
+      rdf:value 0.079;
+      qb:DimensionProperty  :Businessratesholiday;
+      qb:DimensionProperty :Manufacturing.
+
+:ds10_1_3 rdf:type qb:observation;
+      rdf:value 0.33;
+      qb:DimensionProperty  :DeferringVATpayments;
+      qb:DimensionProperty :Manufacturing.
+
+:ds10_1_4 rdf:type qb:observation;
+      rdf:value 0.147;
+      qb:DimensionProperty  :HMRCTimeToPayscheme;
+      qb:DimensionProperty :Manufacturing.
+
+:ds10_1_5 rdf:type qb:observation;
+      rdf:value 0.026;
+      qb:DimensionProperty  :Governmentfundedsmallbusinessgrantorloanschemes;
+      qb:DimensionProperty :Manufacturing.
+
+:ds10_1_6 rdf:type qb:observation;
+      rdf:value 0.013;
+      qb:DimensionProperty  :Accreditedfinanceagreements;
+      qb:DimensionProperty :Manufacturing.
+
+:ds10_1_7 rdf:type qb:observation;
+      rdf:value 0.237;
+      qb:DimensionProperty  :Wehaventreceivedanythatweappliedfor;
+      qb:DimensionProperty :Manufacturing.
+
+:ds10_2_1 rdf:type qb:observation;
+      rdf:value 0.286;
+      qb:DimensionProperty  :CoronavirusJobRetentionScheme;
+      qb:DimensionProperty :WaterSupplySewerageWasteManagementAndRemediationActivities.
+
+:ds10_2_2 rdf:type qb:observation;
+      rdf:value 0.043;
+      qb:DimensionProperty  :Businessratesholiday;
+      qb:DimensionProperty :WaterSupplySewerageWasteManagementAndRemediationActivities.
+
+:ds10_2_3 rdf:type qb:observation;
+      rdf:value 0.371;
+      qb:DimensionProperty  :DeferringVATpayments;
+      qb:DimensionProperty :WaterSupplySewerageWasteManagementAndRemediationActivities.
+
+:ds10_2_4 rdf:type qb:observation;
+      rdf:value 0.157;
+      qb:DimensionProperty  :HMRCTimeToPayscheme;
+      qb:DimensionProperty :WaterSupplySewerageWasteManagementAndRemediationActivities.
+
+:ds10_2_5 rdf:type qb:observation;
+      rdf:value 0.014;
+      qb:DimensionProperty  :Governmentfundedsmallbusinessgrantorloanschemes;
+      qb:DimensionProperty :WaterSupplySewerageWasteManagementAndRemediationActivities.
+
+:ds10_2_6 rdf:type qb:observation;
+      rdf:value 0.043;
+      qb:DimensionProperty  :Accreditedfinanceagreements;
+      qb:DimensionProperty :WaterSupplySewerageWasteManagementAndRemediationActivities.
+
+:ds10_2_7 rdf:type qb:observation;
+      rdf:value 0.243;
+      qb:DimensionProperty  :Wehaventreceivedanythatweappliedfor;
+      qb:DimensionProperty :WaterSupplySewerageWasteManagementAndRemediationActivities.
+
+:ds10_3_1 rdf:type qb:observation;
+      rdf:value 0.291;
+      qb:DimensionProperty  :CoronavirusJobRetentionScheme;
+      qb:DimensionProperty :Construction.
+
+:ds10_3_2 rdf:type qb:observation;
+      rdf:value 0.057;
+      qb:DimensionProperty  :Businessratesholiday;
+      qb:DimensionProperty :Construction.
+
+:ds10_3_3 rdf:type qb:observation;
+      rdf:value 0.443;
+      qb:DimensionProperty  :DeferringVATpayments;
+      qb:DimensionProperty :Construction.
+
+:ds10_3_4 rdf:type qb:observation;
+      rdf:value 0.234;
+      qb:DimensionProperty  :HMRCTimeToPayscheme;
+      qb:DimensionProperty :Construction.
+
+:ds10_3_5 rdf:type qb:observation;
+      rdf:value 0.021;
+      qb:DimensionProperty  :Governmentfundedsmallbusinessgrantorloanschemes;
+      qb:DimensionProperty :Construction.
+
+:ds10_3_6 rdf:type qb:observation;
+      rdf:value 0.018;
+      qb:DimensionProperty  :Accreditedfinanceagreements;
+      qb:DimensionProperty :Construction.
+
+:ds10_3_7 rdf:type qb:observation;
+      rdf:value 0.27;
+      qb:DimensionProperty  :Wehaventreceivedanythatweappliedfor;
+      qb:DimensionProperty :Construction.
+
+:ds10_4_1 rdf:type qb:observation;
+      rdf:value 0.239;
+      qb:DimensionProperty  :CoronavirusJobRetentionScheme;
+      qb:DimensionProperty :WholesaleAndRetailTradeRepairOfMotorVehiclesAndMotorcycles.
+
+:ds10_4_2 rdf:type qb:observation;
+      rdf:value 0.334;
+      qb:DimensionProperty  :Businessratesholiday;
+      qb:DimensionProperty :WholesaleAndRetailTradeRepairOfMotorVehiclesAndMotorcycles.
+
+:ds10_4_3 rdf:type qb:observation;
+      rdf:value 0.469;
+      qb:DimensionProperty  :DeferringVATpayments;
+      qb:DimensionProperty :WholesaleAndRetailTradeRepairOfMotorVehiclesAndMotorcycles.
+
+:ds10_4_4 rdf:type qb:observation;
+      rdf:value 0.183;
+      qb:DimensionProperty  :HMRCTimeToPayscheme;
+      qb:DimensionProperty :WholesaleAndRetailTradeRepairOfMotorVehiclesAndMotorcycles.
+
+:ds10_4_5 rdf:type qb:observation;
+      rdf:value 0.091;
+      qb:DimensionProperty  :Governmentfundedsmallbusinessgrantorloanschemes;
+      qb:DimensionProperty :WholesaleAndRetailTradeRepairOfMotorVehiclesAndMotorcycles.
+
+:ds10_4_6 rdf:type qb:observation;
+      rdf:value 0.015;
+      qb:DimensionProperty  :Accreditedfinanceagreements;
+      qb:DimensionProperty :WholesaleAndRetailTradeRepairOfMotorVehiclesAndMotorcycles.
+
+:ds10_4_7 rdf:type qb:observation;
+      rdf:value 0.16;
+      qb:DimensionProperty  :Wehaventreceivedanythatweappliedfor;
+      qb:DimensionProperty :WholesaleAndRetailTradeRepairOfMotorVehiclesAndMotorcycles.
+
+:ds10_5_1 rdf:type qb:observation;
+      rdf:value 0.251;
+      qb:DimensionProperty  :CoronavirusJobRetentionScheme;
+      qb:DimensionProperty :AccommodationAndFoodServiceActivities.
+
+:ds10_5_2 rdf:type qb:observation;
+      rdf:value 0.633;
+      qb:DimensionProperty  :Businessratesholiday;
+      qb:DimensionProperty :AccommodationAndFoodServiceActivities.
+
+:ds10_5_3 rdf:type qb:observation;
+      rdf:value 0.596;
+      qb:DimensionProperty  :DeferringVATpayments;
+      qb:DimensionProperty :AccommodationAndFoodServiceActivities.
+
+:ds10_5_4 rdf:type qb:observation;
+      rdf:value 0.306;
+      qb:DimensionProperty  :HMRCTimeToPayscheme;
+      qb:DimensionProperty :AccommodationAndFoodServiceActivities.
+
+:ds10_5_5 rdf:type qb:observation;
+      rdf:value 0.178;
+      qb:DimensionProperty  :Governmentfundedsmallbusinessgrantorloanschemes;
+      qb:DimensionProperty :AccommodationAndFoodServiceActivities.
+
+:ds10_5_6 rdf:type qb:observation;
+      rdf:value 0.035;
+      qb:DimensionProperty  :Accreditedfinanceagreements;
+      qb:DimensionProperty :AccommodationAndFoodServiceActivities.
+
+:ds10_5_7 rdf:type qb:observation;
+      rdf:value 0.129;
+      qb:DimensionProperty  :Wehaventreceivedanythatweappliedfor;
+      qb:DimensionProperty :AccommodationAndFoodServiceActivities.
+
+:ds10_6_1 rdf:type qb:observation;
+      rdf:value 0.287;
+      qb:DimensionProperty  :CoronavirusJobRetentionScheme;
+      qb:DimensionProperty :TransportationAndStorage.
+
+:ds10_6_2 rdf:type qb:observation;
+      rdf:value 0.145;
+      qb:DimensionProperty  :Businessratesholiday;
+      qb:DimensionProperty :TransportationAndStorage.
+
+:ds10_6_3 rdf:type qb:observation;
+      rdf:value 0.44;
+      qb:DimensionProperty  :DeferringVATpayments;
+      qb:DimensionProperty :TransportationAndStorage.
+
+:ds10_6_4 rdf:type qb:observation;
+      rdf:value 0.188;
+      qb:DimensionProperty  :HMRCTimeToPayscheme;
+      qb:DimensionProperty :TransportationAndStorage.
+
+:ds10_6_5 rdf:type qb:observation;
+      rdf:value 0.025;
+      qb:DimensionProperty  :Governmentfundedsmallbusinessgrantorloanschemes;
+      qb:DimensionProperty :TransportationAndStorage.
+
+:ds10_6_6 rdf:type qb:observation;
+      rdf:value 0.025;
+      qb:DimensionProperty  :Accreditedfinanceagreements;
+      qb:DimensionProperty :TransportationAndStorage.
+
+:ds10_6_7 rdf:type qb:observation;
+      rdf:value 0.184;
+      qb:DimensionProperty  :Wehaventreceivedanythatweappliedfor;
+      qb:DimensionProperty :TransportationAndStorage.
+
+:ds10_7_1 rdf:type qb:observation;
+      rdf:value 0.154;
+      qb:DimensionProperty  :CoronavirusJobRetentionScheme;
+      qb:DimensionProperty :InformationAndCommunication.
+
+:ds10_7_2 rdf:type qb:observation;
+      rdf:value 0.031;
+      qb:DimensionProperty  :Businessratesholiday;
+      qb:DimensionProperty :InformationAndCommunication.
+
+:ds10_7_3 rdf:type qb:observation;
+      rdf:value 0.397;
+      qb:DimensionProperty  :DeferringVATpayments;
+      qb:DimensionProperty :InformationAndCommunication.
+
+:ds10_7_4 rdf:type qb:observation;
+      rdf:value 0.106;
+      qb:DimensionProperty  :HMRCTimeToPayscheme;
+      qb:DimensionProperty :InformationAndCommunication.
+
+:ds10_7_5 rdf:type qb:observation;
+      rdf:value 0.017;
+      qb:DimensionProperty  :Governmentfundedsmallbusinessgrantorloanschemes;
+      qb:DimensionProperty :InformationAndCommunication.
+
+:ds10_7_6 rdf:type qb:observation;
+      rdf:value 0.01;
+      qb:DimensionProperty  :Accreditedfinanceagreements;
+      qb:DimensionProperty :InformationAndCommunication.
+
+:ds10_7_7 rdf:type qb:observation;
+      rdf:value 0.127;
+      qb:DimensionProperty  :Wehaventreceivedanythatweappliedfor;
+      qb:DimensionProperty :InformationAndCommunication.
+
+:ds10_8_1 rdf:type qb:observation;
+      rdf:value 0.216;
+      qb:DimensionProperty  :CoronavirusJobRetentionScheme;
+      qb:DimensionProperty :ProfessionalScientificAndTechnicalActivities.
+
+:ds10_8_2 rdf:type qb:observation;
+      rdf:value 0.078;
+      qb:DimensionProperty  :Businessratesholiday;
+      qb:DimensionProperty :ProfessionalScientificAndTechnicalActivities.
+
+:ds10_8_3 rdf:type qb:observation;
+      rdf:value 0.518;
+      qb:DimensionProperty  :DeferringVATpayments;
+      qb:DimensionProperty :ProfessionalScientificAndTechnicalActivities.
+
+:ds10_8_4 rdf:type qb:observation;
+      rdf:value 0.146;
+      qb:DimensionProperty  :HMRCTimeToPayscheme;
+      qb:DimensionProperty :ProfessionalScientificAndTechnicalActivities.
+
+:ds10_8_5 rdf:type qb:observation;
+      rdf:value 0.022;
+      qb:DimensionProperty  :Governmentfundedsmallbusinessgrantorloanschemes;
+      qb:DimensionProperty :ProfessionalScientificAndTechnicalActivities.
+
+:ds10_8_6 rdf:type qb:observation;
+      rdf:value 0.023;
+      qb:DimensionProperty  :Accreditedfinanceagreements;
+      qb:DimensionProperty :ProfessionalScientificAndTechnicalActivities.
+
+:ds10_8_7 rdf:type qb:observation;
+      rdf:value 0.176;
+      qb:DimensionProperty  :Wehaventreceivedanythatweappliedfor;
+      qb:DimensionProperty :ProfessionalScientificAndTechnicalActivities.
+
+:ds10_9_1 rdf:type qb:observation;
+      rdf:value 0.28;
+      qb:DimensionProperty  :CoronavirusJobRetentionScheme;
+      qb:DimensionProperty :AdministrativeAndSupportServiceActivities.
+
+:ds10_9_2 rdf:type qb:observation;
+      rdf:value 0.12;
+      qb:DimensionProperty  :Businessratesholiday;
+      qb:DimensionProperty :AdministrativeAndSupportServiceActivities.
+
+:ds10_9_3 rdf:type qb:observation;
+      rdf:value 0.469;
+      qb:DimensionProperty  :DeferringVATpayments;
+      qb:DimensionProperty :AdministrativeAndSupportServiceActivities.
+
+:ds10_9_4 rdf:type qb:observation;
+      rdf:value 0.147;
+      qb:DimensionProperty  :HMRCTimeToPayscheme;
+      qb:DimensionProperty :AdministrativeAndSupportServiceActivities.
+
+:ds10_9_5 rdf:type qb:observation;
+      rdf:value 0.144;
+      qb:DimensionProperty  :Governmentfundedsmallbusinessgrantorloanschemes;
+      qb:DimensionProperty :AdministrativeAndSupportServiceActivities.
+
+:ds10_9_6 rdf:type qb:observation;
+      rdf:value 0.017;
+      qb:DimensionProperty  :Accreditedfinanceagreements;
+      qb:DimensionProperty :AdministrativeAndSupportServiceActivities.
+
+:ds10_9_7 rdf:type qb:observation;
+      rdf:value 0.206;
+      qb:DimensionProperty  :Wehaventreceivedanythatweappliedfor;
+      qb:DimensionProperty :AdministrativeAndSupportServiceActivities.
+
+:ds10_10_1 rdf:type qb:observation;
+      rdf:value 0.098;
+      qb:DimensionProperty  :CoronavirusJobRetentionScheme;
+      qb:DimensionProperty :Education.
+
+:ds10_10_2 rdf:type qb:observation;
+      rdf:value 0.038;
+      qb:DimensionProperty  :Businessratesholiday;
+      qb:DimensionProperty :Education.
+
+:ds10_10_3 rdf:type qb:observation;
+      rdf:value 0.184;
+      qb:DimensionProperty  :DeferringVATpayments;
+      qb:DimensionProperty :Education.
+
+:ds10_10_4 rdf:type qb:observation;
+      rdf:value 0.057;
+      qb:DimensionProperty  :HMRCTimeToPayscheme;
+      qb:DimensionProperty :Education.
+
+:ds10_10_5 rdf:type qb:observation;
+      rdf:value 0;
+      qb:DimensionProperty  :Governmentfundedsmallbusinessgrantorloanschemes;
+      qb:DimensionProperty :Education.
+
+:ds10_10_6 rdf:type qb:observation;
+      rdf:value 0;
+      qb:DimensionProperty  :Accreditedfinanceagreements;
+      qb:DimensionProperty :Education.
+
+:ds10_10_7 rdf:type qb:observation;
+      rdf:value 0.228;
+      qb:DimensionProperty  :Wehaventreceivedanythatweappliedfor;
+      qb:DimensionProperty :Education.
+
+:ds10_11_1 rdf:type qb:observation;
+      rdf:value 0.085;
+      qb:DimensionProperty  :CoronavirusJobRetentionScheme;
+      qb:DimensionProperty :HumanHealthAndSocialWorkActivities.
+
+:ds10_11_2 rdf:type qb:observation;
+      rdf:value 0.092;
+      qb:DimensionProperty  :Businessratesholiday;
+      qb:DimensionProperty :HumanHealthAndSocialWorkActivities.
+
+:ds10_11_3 rdf:type qb:observation;
+      rdf:value 0.155;
+      qb:DimensionProperty  :DeferringVATpayments;
+      qb:DimensionProperty :HumanHealthAndSocialWorkActivities.
+
+:ds10_11_4 rdf:type qb:observation;
+      rdf:value 0.042;
+      qb:DimensionProperty  :HMRCTimeToPayscheme;
+      qb:DimensionProperty :HumanHealthAndSocialWorkActivities.
+
+:ds10_11_5 rdf:type qb:observation;
+      rdf:value 0.07;
+      qb:DimensionProperty  :Governmentfundedsmallbusinessgrantorloanschemes;
+      qb:DimensionProperty :HumanHealthAndSocialWorkActivities.
+
+:ds10_11_6 rdf:type qb:observation;
+      rdf:value 0;
+      qb:DimensionProperty  :Accreditedfinanceagreements;
+      qb:DimensionProperty :HumanHealthAndSocialWorkActivities.
+
+:ds10_11_7 rdf:type qb:observation;
+      rdf:value 0.141;
+      qb:DimensionProperty  :Wehaventreceivedanythatweappliedfor;
+      qb:DimensionProperty :HumanHealthAndSocialWorkActivities.
+
+:ds10_12_1 rdf:type qb:observation;
+      rdf:value 0.219;
+      qb:DimensionProperty  :CoronavirusJobRetentionScheme;
+      qb:DimensionProperty :ArtsEntertainmentAndRecreation.
+
+:ds10_12_2 rdf:type qb:observation;
+      rdf:value 0.45;
+      qb:DimensionProperty  :Businessratesholiday;
+      qb:DimensionProperty :ArtsEntertainmentAndRecreation.
+
+:ds10_12_3 rdf:type qb:observation;
+      rdf:value 0.435;
+      qb:DimensionProperty  :DeferringVATpayments;
+      qb:DimensionProperty :ArtsEntertainmentAndRecreation.
+
+:ds10_12_4 rdf:type qb:observation;
+      rdf:value 0.255;
+      qb:DimensionProperty  :HMRCTimeToPayscheme;
+      qb:DimensionProperty :ArtsEntertainmentAndRecreation.
+
+:ds10_12_5 rdf:type qb:observation;
+      rdf:value 0.108;
+      qb:DimensionProperty  :Governmentfundedsmallbusinessgrantorloanschemes;
+      qb:DimensionProperty :ArtsEntertainmentAndRecreation.
+
+:ds10_12_6 rdf:type qb:observation;
+      rdf:value 0.043;
+      qb:DimensionProperty  :Accreditedfinanceagreements;
+      qb:DimensionProperty :ArtsEntertainmentAndRecreation.
+
+:ds10_12_7 rdf:type qb:observation;
+      rdf:value 0.176;
+      qb:DimensionProperty  :Wehaventreceivedanythatweappliedfor;
+      qb:DimensionProperty :ArtsEntertainmentAndRecreation.
+
+:ds10_13_1 rdf:type qb:observation;
+      rdf:value 0.222;
+      qb:DimensionProperty  :CoronavirusJobRetentionScheme;
+      qb:DimensionProperty :AllIndustries.
+
+:ds10_13_2 rdf:type qb:observation;
+      rdf:value 0.191;
+      qb:DimensionProperty  :Businessratesholiday;
+      qb:DimensionProperty :AllIndustries.
+
+:ds10_13_3 rdf:type qb:observation;
+      rdf:value 0.427;
+      qb:DimensionProperty  :DeferringVATpayments;
+      qb:DimensionProperty :AllIndustries.
+
+:ds10_13_4 rdf:type qb:observation;
+      rdf:value 0.168;
+      qb:DimensionProperty  :HMRCTimeToPayscheme;
+      qb:DimensionProperty :AllIndustries.
+
+:ds10_13_5 rdf:type qb:observation;
+      rdf:value 0.07;
+      qb:DimensionProperty  :Governmentfundedsmallbusinessgrantorloanschemes;
+      qb:DimensionProperty :AllIndustries.
+
+:ds10_13_6 rdf:type qb:observation;
+      rdf:value 0.018;
+      qb:DimensionProperty  :Accreditedfinanceagreements;
+      qb:DimensionProperty :AllIndustries.
+
+:ds10_13_7 rdf:type qb:observation;
+      rdf:value 0.189;
+      qb:DimensionProperty  :Wehaventreceivedanythatweappliedfor;
+      qb:DimensionProperty :AllIndustries.
+
