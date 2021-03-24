@@ -11,18 +11,18 @@
  	 dc:title "Industry". 
 #Dimensions - columns
 :WorkForce rdf:type owl:Class;
-	 rdfs:subClassOf qb:dimension 
+	 rdfs:subClassOf qb:Dimension 
 #Dimensions - row
 :Country rdf:type owl:Class;
-	 rdfs:subClassOf qb:dimension.
+	 rdfs:subClassOf qb:Dimension.
 
 :TradingStatus rdf:type owl:Class;
-	rdfs:subClassOf qb:dimension.
+	rdfs:subClassOf qb:Dimension.
 
 :SchemeType rdf:type owl:Class;
-	rdfs:subClassOf qb:dimension.
+	rdfs:subClassOf qb:Dimension.
 
 :TimePeriod rdf:type owl:Class;
-	rdfs:subClassOf qb:dimension.
+	rdfs:subClassOf qb:Dimension.
 
 
