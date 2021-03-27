@@ -7,22 +7,23 @@
 @prefix qb: <http://purl.org/linked-data/cube#>.
 
 #Dimension - row
-:Industry rdfs:subClassOf qb:Dimension;
- 	 dc:title "Industry". 
+:Industry rdf:type owl:Class;
+	 rdfs:subClassOf qb:DimensionProperty;
+ 	 
 #Dimensions - columns
 :WorkForce rdf:type owl:Class;
-	 rdfs:subClassOf qb:dimension 
+	 rdfs:subClassOf qb:DimensionProperty. 
 #Dimensions - row
 :Country rdf:type owl:Class;
-	 rdfs:subClassOf qb:dimension.
+	 rdfs:subClassOf qb:DimensionProperty.
 
 :TradingStatus rdf:type owl:Class;
-	rdfs:subClassOf qb:dimension.
+	rdfs:subClassOf qb:DimensionProperty.
 
 :SchemeType rdf:type owl:Class;
-	rdfs:subClassOf qb:dimension.
+	rdfs:subClassOf qb:DimensionProperty.
 
 :TimePeriod rdf:type owl:Class;
-	rdfs:subClassOf qb:dimension.
+	rdfs:subClassOf qb:DimensionProperty.
 
 

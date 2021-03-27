@@ -23,7 +23,7 @@ public class One {
         model.read( in, null, "TTL");
 
 
-        String queryString = "SELECT ?s ?p ?o  WHERE {?s ?p ?o .} LIMIT 100" ;
+        String queryString = "SELECT ?s ?1 ?o  WHERE {?s ?p ?o .} LIMIT 100" ;
         Query query = QueryFactory.create(queryString) ;
         try (QueryExecution qexec = QueryExecutionFactory.create(query, model)) {
             ResultSet results = qexec.execSelect() ;

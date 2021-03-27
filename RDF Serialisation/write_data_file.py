@@ -1,5 +1,6 @@
 import pandas as pd
 import re
+import json
 
 
 def replaceSpaceWithunderScore(string):
@@ -162,10 +163,12 @@ def printDataPoint(table, outputDataFile, ds):
                                  " rdf:type qb:observation;\n")
             outputDataFile.write(
                 "      rdf:value "+str(table.iloc[row][table.columns[col+1]])+";\n")
+            outputDataFile.write('      qb:dimension' +
+                                 ' :'+"TP04_2020" + '' + ';\n')
             outputDataFile.write(
-                "      qb:DimensionProperty "+" :"+replaceSpaceWithunderScore(table.columns[col+1])+";\n")
+                "      qb:dimension"+" :"+replaceSpaceWithunderScore(table.columns[col+1])+";\n")
 
-            outputDataFile.write("      qb:DimensionProperty " + ":" +
+            outputDataFile.write("      qb:dimension " + ":" +
                                  replaceSpaceWithunderScore(str(table.iloc[row][table.columns[0]]))+".\n")
 
             outputDataFile.write("\n")
@@ -239,6 +242,252 @@ def main():
     govSchemeOne(outputDataFile)
     govSchemeTwo(outputDataFile)
     govThree(outputDataFile)
+
+    # sampleSizeJSON(outputDataFile)
+    # responseRateJson(outputDataFile)
+    # tradingStatusJSON(outputDataFile)
+    # govSchemeOneJSON(outputDataFile)
+    # govSchemeTwoJSON(outputDataFile)
+    # govThreeJSON(outputDataFile)
+# main()
+
+
+def sampleSizeJSON(outputDataFile):
+    table = getSheet(2, 3, "A:D")
+    table = remove_notes(table, indexes=table.index[16:24])
+
+    res = []
+    for row in range(0, len(table.index)):
+        for col in range(0, len(table.columns)-1):
+            data = {}
+            print(table.iloc[row][table.columns[col+1]])
+            data['value'] = table.iloc[row][table.columns[col+1]]
+            data['WorkForce'] = replaceSpaceWithunderScore(
+                table.columns[col+1])
+            data['Industry'] = replaceSpaceWithunderScore(
+                str(table.iloc[row][table.columns[0]]))
+            res.append(data)
+
+    jsondata = {'name': 'sample size', 'dataset': res,
+                'notes': 'Sample Size Table, show number of survey sent out.'}
+    json.dump(jsondata, outputDataFile)
+
+
+def responseRateJson(outputDataFile):
+    table = getSheet(sheet_num=3, header=3, use_cols="A:D")
+    table = table.head(13)
+    res = []
+    for row in range(0, len(table.index)):
+        for col in range(0, len(table.columns)-1):
+            data = {}
+            print(table.iloc[row][table.columns[col+1]])
+            data['value'] = table.iloc[row][table.columns[col+1]]
+            data['WorkForce'] = replaceSpaceWithunderScore(
+                table.columns[col+1])
+            data['Industry'] = replaceSpaceWithunderScore(
+                str(table.iloc[row][table.columns[0]]))
+            res.append(data)
+    jsondata = {'name': 'Number of responses', 'dataset': res}
+    json.dump(jsondata, outputDataFile)
+
+    temp = table.columns
+    table = getSheet(sheet_num=3, header=3, use_cols="G:J")
+    table = table.head(13)
+    table.columns = temp
+    res = []
+    for row in range(0, len(table.index)):
+        for col in range(0, len(table.columns)-1):
+            data = {}
+            print(table.iloc[row][table.columns[col+1]])
+            data['value'] = table.iloc[row][table.columns[col+1]]
+            data['WorkForce'] = replaceSpaceWithunderScore(
+                table.columns[col+1])
+            data['Industry'] = replaceSpaceWithunderScore(
+                str(table.iloc[row][table.columns[0]]))
+            res.append(data)
+    jsondata = {'name': 'Proportion of Responses', 'dataset': res}
+    json.dump(jsondata, outputDataFile)
+
+
+def tradingStatusJSON(outputDataFile):
+    trading_status_industry = getSheet(sheet_num=4, header=3, use_cols="A:D")
+    trading_status_industry = trading_status_industry.head(13)
+    res = []
+    for row in range(0, len(trading_status_industry.index)):
+        for col in range(0, len(trading_status_industry.columns)-1):
+            data = {}
+            print(trading_status_industry.iloc[row]
+                  [trading_status_industry.columns[col+1]])
+            data['value'] = trading_status_industry.iloc[row][trading_status_industry.columns[col+1]]
+            data['TradingStatus'] = replaceSpaceWithunderScore(
+                trading_status_industry.columns[col+1])
+            data['Industry'] = replaceSpaceWithunderScore(
+                str(trading_status_industry.iloc[row][trading_status_industry.columns[0]]))
+            res.append(data)
+
+    jsondata = {'name': 'Trading Status by Industry', 'dataset': res}
+    json.dump(jsondata, outputDataFile)
+
+    trading_status_workforce = getSheet(sheet_num=4, header=29, use_cols="A:D")
+    trading_status_workforce = trading_status_workforce.head(3)
+
+    res = []
+    for row in range(0, len(trading_status_workforce.index)):
+        for col in range(0, len(trading_status_workforce.columns)-1):
+            data = {}
+            print(trading_status_workforce.iloc[row]
+                  [trading_status_workforce.columns[col+1]])
+            data['value'] = trading_status_workforce.iloc[row][trading_status_workforce.columns[col+1]]
+            data['TradingStatus'] = replaceSpaceWithunderScore(
+                trading_status_workforce.columns[col+1])
+            data['WorkForce'] = replaceSpaceWithunderScore(
+                str(trading_status_workforce.iloc[row][trading_status_workforce.columns[0]]))
+            res.append(data)
+
+    jsondata = {'name': 'Trading Status by Workforce', 'dataset': res}
+    json.dump(jsondata, outputDataFile)
+
+    trading_status_country = getSheet(sheet_num=4, header=44, use_cols="A:D")
+    trading_status_country = trading_status_country.head(5)
+    res = []
+    for row in range(0, len(trading_status_country.index)):
+        for col in range(0, len(trading_status_country.columns)-1):
+            data = {}
+            print(trading_status_country.iloc[row]
+                  [trading_status_country.columns[col+1]])
+            data['value'] = trading_status_country.iloc[row][trading_status_country.columns[col+1]]
+            data['TradingStatus'] = replaceSpaceWithunderScore(
+                trading_status_country.columns[col+1])
+            data['Country'] = replaceSpaceWithunderScore(
+                str(trading_status_country.iloc[row][trading_status_country.columns[0]]))
+            res.append(data)
+    jsondata = {'name': 'Trading Status by Country', 'dataset': res}
+    json.dump(jsondata, outputDataFile)
+
+
+def govSchemeOneJSON(outputDataFile):
+    goveScheme_industry = getSheet(sheet_num=5, header=3, use_cols="A:H")
+    goveScheme_industry = goveScheme_industry.head(13)
+    res = []
+    for row in range(0, len(goveScheme_industry.index)):
+        for col in range(0, len(goveScheme_industry.columns)-1):
+            data = {}
+            print(goveScheme_industry.iloc[row]
+                  [goveScheme_industry.columns[col+1]])
+            data['value'] = goveScheme_industry.iloc[row][goveScheme_industry.columns[col+1]]
+            data['SchemeType'] = replaceSpaceWithunderScore(
+                goveScheme_industry.columns[col+1])
+            data['Industry'] = replaceSpaceWithunderScore(
+                str(goveScheme_industry.iloc[row][goveScheme_industry.columns[0]]))
+            res.append(data)
+    jsondata = {'name': 'Government Scheme One by Industry', 'dataset': res}
+    json.dump(jsondata, outputDataFile)
+
+    goveScheme_workforce = getSheet(sheet_num=5, header=27, use_cols="A:H")
+    goveScheme_workforce = goveScheme_workforce.head(3)
+    res = []
+    for row in range(0, len(goveScheme_workforce.index)):
+        for col in range(0, len(goveScheme_workforce.columns)-1):
+            data = {}
+            print(goveScheme_workforce.iloc[row]
+                  [goveScheme_workforce.columns[col+1]])
+            data['value'] = goveScheme_workforce.iloc[row][goveScheme_workforce.columns[col+1]]
+            data['SchemeType'] = replaceSpaceWithunderScore(
+                goveScheme_workforce.columns[col+1])
+            data['WorkForce'] = replaceSpaceWithunderScore(
+                str(goveScheme_workforce.iloc[row][goveScheme_workforce.columns[0]]))
+            res.append(data)
+    jsondata = {'name': 'Government Scheme One by WorkForce', 'dataset': res}
+    json.dump(jsondata, outputDataFile)
+
+    goveScheme_country = getSheet(sheet_num=5, header=27, use_cols="A:H")
+    goveScheme_country = goveScheme_country.head(3)
+    res = []
+    for row in range(0, len(goveScheme_country.index)):
+        for col in range(0, len(goveScheme_country.columns)-1):
+            data = {}
+            print(goveScheme_country.iloc[row]
+                  [goveScheme_country.columns[col+1]])
+            data['value'] = goveScheme_country.iloc[row][goveScheme_country.columns[col+1]]
+            data['SchemeType'] = replaceSpaceWithunderScore(
+                goveScheme_country.columns[col+1])
+            data['Country'] = replaceSpaceWithunderScore(
+                str(goveScheme_country.iloc[row][goveScheme_country.columns[0]]))
+            res.append(data)
+    jsondata = {'name': 'Government Scheme One by Country', 'dataset': res}
+    json.dump(jsondata, outputDataFile)
+
+
+def govSchemeTwoJSON(outputDataFile):
+    goveScheme_industry = getSheet(sheet_num=6, header=3, use_cols="A:H")
+    goveScheme_industry = goveScheme_industry.head(13)
+    res = []
+    for row in range(0, len(goveScheme_industry.index)):
+        for col in range(0, len(goveScheme_industry.columns)-1):
+            data = {}
+            print(goveScheme_industry.iloc[row]
+                  [goveScheme_industry.columns[col+1]])
+            data['value'] = goveScheme_industry.iloc[row][goveScheme_industry.columns[col+1]]
+            data['SchemeType'] = replaceSpaceWithunderScore(
+                goveScheme_industry.columns[col+1])
+            data['Industry'] = replaceSpaceWithunderScore(
+                str(goveScheme_industry.iloc[row][goveScheme_industry.columns[0]]))
+            res.append(data)
+    jsondata = {'name': 'Government Scheme Two by Industry', 'dataset': res}
+    json.dump(jsondata, outputDataFile)
+
+    goveScheme_workforce = getSheet(sheet_num=6, header=29, use_cols="A:H")
+    goveScheme_workforce = goveScheme_workforce.head(3)
+    res = []
+    for row in range(0, len(goveScheme_workforce.index)):
+        for col in range(0, len(goveScheme_workforce.columns)-1):
+            data = {}
+            print(goveScheme_workforce.iloc[row]
+                  [goveScheme_workforce.columns[col+1]])
+            data['value'] = goveScheme_workforce.iloc[row][goveScheme_workforce.columns[col+1]]
+            data['SchemeType'] = replaceSpaceWithunderScore(
+                goveScheme_workforce.columns[col+1])
+            data['WorkForce'] = replaceSpaceWithunderScore(
+                str(goveScheme_workforce.iloc[row][goveScheme_workforce.columns[0]]))
+            res.append(data)
+    jsondata = {'name': 'Government Scheme Two by WorkForce', 'dataset': res}
+    json.dump(jsondata, outputDataFile)
+
+
+def govThreeJSON(outputDataFile):
+    goveScheme_industry = getSheet(sheet_num=7, header=3, use_cols="A:H")
+    goveScheme_industry = goveScheme_industry.head(13)
+    res = []
+    for row in range(0, len(goveScheme_industry.index)):
+        for col in range(0, len(goveScheme_industry.columns)-1):
+            data = {}
+            print(goveScheme_industry.iloc[row]
+                  [goveScheme_industry.columns[col+1]])
+            data['value'] = goveScheme_industry.iloc[row][goveScheme_industry.columns[col+1]]
+            data['SchemeType'] = replaceSpaceWithunderScore(
+                goveScheme_industry.columns[col+1])
+            data['Industry'] = replaceSpaceWithunderScore(
+                str(goveScheme_industry.iloc[row][goveScheme_industry.columns[0]]))
+            res.append(data)
+    jsondata = {'name': 'Government Scheme Three by Industry', 'dataset': res}
+    json.dump(jsondata, outputDataFile)
+
+    goveScheme_workforce = getSheet(sheet_num=7, header=28, use_cols="A:H")
+    goveScheme_workforce = goveScheme_workforce.head(3)
+    res = []
+    for row in range(0, len(goveScheme_workforce.index)):
+        for col in range(0, len(goveScheme_workforce.columns)-1):
+            data = {}
+            print(goveScheme_workforce.iloc[row]
+                  [goveScheme_workforce.columns[col+1]])
+            data['value'] = goveScheme_workforce.iloc[row][goveScheme_workforce.columns[col+1]]
+            data['SchemeType'] = replaceSpaceWithunderScore(
+                goveScheme_workforce.columns[col+1])
+            data['WorkForce'] = replaceSpaceWithunderScore(
+                str(goveScheme_workforce.iloc[row][goveScheme_workforce.columns[0]]))
+            res.append(data)
+    jsondata = {'name': 'Government Scheme Three by WorkForce', 'dataset': res}
+    json.dump(jsondata, outputDataFile)
 
 
 main()
