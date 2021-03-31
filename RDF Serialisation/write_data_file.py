@@ -167,7 +167,8 @@ def printDataPoint(table, outputDataFile, ds):
                                  ' :'+"TP04_2020" + '' + ';\n')
             outputDataFile.write(
                 "      qb:dimension"+" :"+replaceSpaceWithunderScore(table.columns[col+1])+";\n")
-
+            outputDataFile.write("      qb:dataset " + ":" + ds
+                                 + ";\n")
             outputDataFile.write("      qb:dimension " + ":" +
                                  replaceSpaceWithunderScore(str(table.iloc[row][table.columns[0]]))+".\n")
 
